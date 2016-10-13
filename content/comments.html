@@ -1,0 +1,12 @@
+<section>
+  <div class="container">
+  </div>
+  <div ng-controller="commentsCtrl">
+    <div>
+      <div ng-repeat="comment in comments | filter: query | orderBy: order">
+        <h4>{{comment.username}}</h4>
+        <p>{{comment.content}}</p>
+      </div>
+    </div>
+  </div>
+</section>

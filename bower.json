@@ -1,0 +1,11 @@
+{
+  "name": "dlanor",
+  "description": "angular.js",
+  "main": "index.js",
+  "authors": [
+    "dlanor"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true
+}
